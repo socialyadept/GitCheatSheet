@@ -18,7 +18,7 @@ git init
 touch <filename>
 ```
 
-### opening it using a text editor such as atom:
+### Opening it using a text editor such as atom:
 
 ```
 atom <filename>
