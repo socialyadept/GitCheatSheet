@@ -32,7 +32,7 @@ mv <previousname> <newname>
 
 ## Bread and Butter of git:
 
-### Adding files to the repository
+### 1. Adding files to the repository
 
 ```
 git add <filename> <filename> 
@@ -40,7 +40,7 @@ git add <filename> <filename>
 or use a '.' to add all of the files in a folder
 or use ‘*’ to add file of a certain type such as *.html will add all .html files in a directory
 
-### Commiting changes
+### 2. Commiting changes
 
 ```
 git commit -m "message"
