@@ -15,7 +15,7 @@ git init
 ### Creating a new file
 
 ```
-touch <filename>
+touch *<filename>*
 ```
 
 ### Opening it using a text editor such as atom
@@ -93,14 +93,14 @@ Note: you will still have the history of recent updates even if you go back
 touch .gitignore
 ```
 used for ignoring some git files
-just add names of files inside this ‘.gitignore’ file and they will vanish
+just add names of files inside this *.gitignore* file and they will vanish
 
-### For adding a .gitignore file in commit
+### For adding a *.gitignore* file in commit
 
 ```
 git add -A
 ```
-This will add every file including ***.gitignore*** for further commit
+This will add every file including *.gitignore* for next commit
 
 ### For creating a new branch
 
@@ -132,7 +132,7 @@ git checkout <branchname>
 git merge <branch_name_other_than_master>
 ```
 This will automatically create a commit to git as well
-If you want to merge into master -> make sure you are currently in master branch 
+If you want to merge into *master* branch -> make sure you are currently in *master* branch 
 
 ### Adding a remote link *<url>* of a repositiory
 
@@ -161,6 +161,8 @@ git push -u origin master:
 ## Acknowledgments
 
 Muhammad Kumail - [mkumail1](https://github.com/mkumail1)
+
 Linkedin - [mkumail1](https://www.linkedin.com/in/mkumail1/)
+
 Twitter - [mkumail1](https://www.twitter.com/mkumail)
 
