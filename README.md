@@ -38,7 +38,8 @@ mv <previousname> <newname>
 git add <filename> <filename> 
 ```
 or use a '.' to add all of the files in a folder 
-or use ‘*’ to add file of a certain type such as * *.html * will add all .html files in a directory
+
+or use ‘*’ to add file of a certain type such as  * *.html* will add all .html files in a directory
 
 ### 2. Commiting changes
 
@@ -53,6 +54,7 @@ git commit -m "message"
 git status
 ```
 git **tracked** files means they are added and read by git
+
 **untracked** files means that they are not added or catered by git
 
 ### Removing a file from commit
@@ -85,13 +87,13 @@ git revert --no-commit <commit code>..HEAD
 ```
 Note: you will still have the history of recent updates even if you go back
 
-### Creating a .gitignore file: 
+### Creating a *.gitignore* file: 
 
 ```
 touch .gitignore
 ```
 used for ignoring some git files
-just add names of files inside this ‘gitignore’ file and they will vanish
+just add names of files inside this ‘.gitignore’ file and they will vanish
 
 ### For adding a .gitignore file in commit
 
