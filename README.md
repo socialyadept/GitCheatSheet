@@ -140,8 +140,11 @@ If you want to merge into *master* branch -> make sure you are currently in *mas
 git remote add origin master
 ```
 **Remote:** here is the remote origin
+
 **Add:** means we are adding something to a remote rep
+
 **Origin:** is a name can be anything else
+
 **Master:** is a <branch name>, can be any other branch as well
 
 ### Pushing everything to the remote repository
@@ -152,17 +155,23 @@ git push -u origin master:
 
 ## For making a pull request
 
-1. Go to folk
+1. Go to any github repository [for example:](https://github.com/mkumail1/PurrfectMatchingHTML-CSS)
+2. Tap on folk
+3. Copy the link of the repository
+4. Open terminal and type
 ```
-2. git clone <url>
+git clone <url>
 ```
-3. Make changes then commit and afterwards use pull request to make a request.
+4. Make changes, then commit.
+5. Afterwards use [pull request](https://github.com/mkumail1/PurrfectMatchingHTML-CSS/pulls) to make a request.
 
 ## Acknowledgments
 
 Muhammad Kumail - [mkumail1](https://github.com/mkumail1)
 
-Linkedin - [mkumail1](https://www.linkedin.com/in/mkumail1/)
+[Linkedin](https://www.linkedin.com/in/mkumail1/)
 
-Twitter - [mkumail1](https://www.twitter.com/mkumail)
+[Twitter](https://www.twitter.com/theszwitterguy)
+
+[Facebook](https://www.facebook.com/theszwitterguy)
 
