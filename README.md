@@ -18,7 +18,7 @@ git init
 touch <filename>
 ```
 
-### 3. Opening a file using a text editor such as atom
+### 3. Opening a file using a text editor such as *atom*
 
 ```
 atom <filename>
@@ -32,7 +32,7 @@ mv <previousname> <newname>
 
 ## Bread and Butter of git
 
-### a. Adding files to the repository
+### a. *Adding* files to the repository
 
 ```
 git add <filename> <filename> 
@@ -41,7 +41,7 @@ or use a '.' to add all of the files in a folder
 
 or use ‘*’ to add file of a certain type such as  * *.html* will add all .html files in a directory
 
-### b. Commiting changes
+### b. *Commiting* changes
 
 ```
 git commit -m "message"
@@ -57,7 +57,7 @@ git **tracked** files means they are added and read by git
 
 **untracked** files means that they are not added or catered by git
 
-### 6. Removing a file from *commit*
+### 6. *Removing* a file from commit
 
 ```
 git rm --cached <filename>
@@ -108,7 +108,7 @@ This will add every file including *.gitignore* for next commit
 git checkout -b <branchname> or git branch <branchname>
 ```
 
-### 14. For deleting a *branch*
+### 14. For *deleting* a branch
 
 ```
 git branch -d <branchname>
@@ -120,7 +120,7 @@ git branch -d <branchname>
 git branch
 ```
 
-### 16. Moving to any *branch*
+### 16. *Moving* to any branch
 
 ```
 git checkout <branchname>
