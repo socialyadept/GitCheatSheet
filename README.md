@@ -37,8 +37,8 @@ mv <previousname> <newname>
 ```
 git add <filename> <filename> 
 ```
-or use a '.' to add all of the files in a folder
-or use ‘*’ to add file of a certain type such as *.html will add all .html files in a directory
+or use a '.' to add all of the files in a folder 
+or use ‘*’ to add file of a certain type such as * *.html * will add all .html files in a directory
 
 ### 2. Commiting changes
 
@@ -90,7 +90,7 @@ Note: you will still have the history of recent updates even if you go back
 ```
 touch .gitignore
 ```
-- used for ignoring some git files
+used for ignoring some git files
 just add names of files inside this ‘gitignore’ file and they will vanish
 
 ### For adding a .gitignore file in commit
