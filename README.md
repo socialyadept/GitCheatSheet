@@ -12,19 +12,19 @@ For me these commands are the most important and are basically a crash cheat she
 git init
 ```
 
-### 2. Creating a new file
+### 2. Creating a *new file*
 
 ```
 touch <filename>
 ```
 
-### 3. Opening it using a text editor such as atom
+### 3. Opening a file using a text editor such as atom
 
 ```
 atom <filename>
 ```
 
-### 4. Changing name of a file
+### 4. Changing *name* of a file
 
 ```
 mv <previousname> <newname>
@@ -48,7 +48,7 @@ git commit -m "message"
 ```
 -m is used for not opening a commit file in CLI
 
-### 5. Checking status
+### 5. Checking *status*
 
 ```
 git status
@@ -57,30 +57,30 @@ git **tracked** files means they are added and read by git
 
 **untracked** files means that they are not added or catered by git
 
-### 6. Removing a file from commit
+### 6. Removing a file from *commit*
 
 ```
 git rm --cached <filename>
 ```
 
-### 7. Removing a file from the main directory
+### 7. Removing a file from the *main* directory
 ```
 rm <filename>
 ```
 
-### 8. Checking git commit's history
+### 8. Checking git *commit's* history
 
 ```
 git log
 ```
 
-### 9. Visiting back to a commit
+### 9. Visiting back to a *commit*
 
 ```
 git checkout <commit code>
 ```
 
-### 10. Reverting/walking back to a commit from master branch 
+### 10. Reverting/walking back to a *commit* from *master* branch 
 
 ```
 git revert --no-commit <commit code>..HEAD
@@ -102,31 +102,31 @@ git add -A
 ```
 This will add every file including *.gitignore* for next commit
 
-### 13. For creating a new branch
+### 13. For creating a *new branch*
 
 ```
 git checkout -b <branchname> or git branch <branchname>
 ```
 
-### 14. For deleting a branch
+### 14. For deleting a *branch*
 
 ```
 git branch -d <branchname>
 ```
 
-### 15. Check list of branches
+### 15. Check *list* of branches
 
 ```
 git branch
 ```
 
-### 16. Moving to any branch
+### 16. Moving to any *branch*
 
 ```
 git checkout <branchname>
 ```
 
-### 17. For merging a branch
+### 17. For merging a *branch*
 
 ```
 git merge <branch_name_other_than_master>
@@ -134,7 +134,7 @@ git merge <branch_name_other_than_master>
 This will automatically create a commit to git as well
 If you want to merge into *master* branch -> make sure you are currently in *master* branch 
 
-### 18. Adding a remote link *<url <>* of a repositiory
+### 18. Adding a remote link <*url*> of a repositiory
 
 ```
 git remote add origin master
@@ -145,7 +145,7 @@ git remote add origin master
 
 **Origin:** is a name for the push, can be anything else
 
-**Master:** is a *<branch name<>*, can be any other branch as well
+**Master:** is a <*branch name*>, can be any other branch as well
 
 ### 19. Pushing everything to the remote repository
 
