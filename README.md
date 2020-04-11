@@ -1,4 +1,4 @@
-# Everything you need to know for Git:
+# Everything you need to know for Git
 
 I am writing this for not an absolute solution to most of the issues but to help in remembering git commands. I am uploading this to gitHub so that I can comeback and check the things for myself later on.
 
@@ -6,19 +6,19 @@ I am writing this for not an absolute solution to most of the issues but to help
 
 For me these commands are the most important and are basically a crash cheat sheet for most of the common commands used in git. If executed perfectly you won't be needing any other command for work.
 
-### initializing a git repository in your current folder.
+### Initializing a git repository in your current folder
 
 ```
 git init
 ```
 
-### Creating a new file:
+### Creating a new file
 
 ```
 touch <filename>
 ```
 
-### Opening it using a text editor such as atom:
+### Opening it using a text editor such as atom
 
 ```
 atom <filename>
@@ -30,7 +30,7 @@ atom <filename>
 mv <previousname> <newname>
 ```
 
-## Bread and Butter of git:
+## Bread and Butter of git
 
 ### 1. Adding files to the repository
 
@@ -68,7 +68,7 @@ git rm --cached <filename>
 rm <filename>
 ```
 
-### Checking git commit's history:
+### Checking git commit's history
 
 ```
 git log
@@ -87,7 +87,7 @@ git revert --no-commit <commit code>..HEAD
 ```
 Note: you will still have the history of recent updates even if you go back
 
-### Creating a *.gitignore* file: 
+### Creating a *.gitignore* file
 
 ```
 touch .gitignore
@@ -150,7 +150,7 @@ git remote add origin master
 git push -u origin master:
 ```
 
-## For making a pull request:
+## For making a pull request
 
 1. Go to folk
 ```
