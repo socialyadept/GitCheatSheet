@@ -15,7 +15,7 @@ git init
 ### Creating a new file
 
 ```
-touch *<filename>*
+touch <filename>
 ```
 
 ### Opening it using a text editor such as atom
