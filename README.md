@@ -134,7 +134,7 @@ git merge <branch_name_other_than_master>
 This will automatically create a commit to git as well
 If you want to merge into *master* branch -> make sure you are currently in *master* branch 
 
-### 18. Adding a remote link <*branch*> of a repositiory
+### 18. Adding a remote <*branch*> of a repositiory
 
 ```
 git remote add origin master
