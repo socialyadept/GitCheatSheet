@@ -158,7 +158,7 @@ git remote add origin <url>
 
 **Origin:** is a name for the push, can be anything else
 
-**url:** is the url of the reporsitory you want to add to your git bash
+**Url:** is the url of the reporsitory you want to add to your git bash
 
 Note: For existing repositories first check *git pull* for checking the current status and then commit changes.
 
