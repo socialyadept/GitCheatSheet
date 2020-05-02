@@ -134,7 +134,7 @@ git merge <branch_name_other_than_master>
 This will automatically create a commit to git as well
 If you want to merge into *master* branch -> make sure you are currently in *master* branch 
 
-### 18. Adding a remote link <*url*> of a repositiory
+### 18. Adding a remote link <*branch*> of a repositiory
 
 ```
 git remote add origin master
@@ -146,6 +146,21 @@ git remote add origin master
 **Origin:** is a name for the push, can be anything else
 
 **Master:** is a <*branch name*>, can be any other branch as well
+
+### 19. Adding a remote link <*url*> of a repositiory
+
+```
+git remote add origin <url>
+```
+**Remote:** here is the remote origin
+
+**Add:** means we are adding something to a remote rep
+
+**Origin:** is a name for the push, can be anything else
+
+**url:** is the url of the reporsitory you want to add to your git bash
+
+Note: For existing repositories first check *git pull* for checking the current status and then commit changes.
 
 ### 19. Pushing everything to the remote repository
 
