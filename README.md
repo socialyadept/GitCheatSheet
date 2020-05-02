@@ -162,13 +162,13 @@ git remote add origin <url>
 
 Note: For existing repositories first check *git pull* for checking the current status and then commit changes.
 
-### 19. Pushing everything to the remote repository
+### 20. Pushing everything to the remote repository
 
 ```
 git push -u origin master
 ```
 
-## 20. For making a pull request
+## 21. For making a pull request
 
 1. Go to any github repository [for example](https://github.com/mkumail1/PurrfectMatchingHTML-CSS).
 2. Tap on folk.
