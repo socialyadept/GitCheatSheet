@@ -165,7 +165,7 @@ Note: For existing repositories first check *git pull* for checking the current 
 ### 19. Pushing everything to the remote repository
 
 ```
-git push -u origin master:
+git push -u origin master
 ```
 
 ## 20. For making a pull request
