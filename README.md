@@ -190,5 +190,5 @@ Muhammad Kumail
 
 [Twitter](https://www.twitter.com/thezwitterguy)
 
-[Facebook](https://www.facebook.com/thezwitterguy)
+[Facebook](https://www.facebook.com/iamkumaail/)
 
