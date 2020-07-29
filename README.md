@@ -172,13 +172,18 @@ git push -u origin master
 
 1. Go to any github repository [for example](https://github.com/mkumail1/PurrfectMatchingHTML-CSS).
 2. Tap on folk.
-3. Copy the link of the repository.
+3. Copy the link forked from your copy of the repository.
 4. Open terminal and type.
 ```
 git clone <url>
 ```
-4. Make changes, then commit.
-5. Afterwards use [pull request](https://github.com/mkumail1/PurrfectMatchingHTML-CSS/pulls) to make a request.
+5. Add a new branch:
+```
+git checkout -b <branchname>
+```
+6. Make changes, then commit.
+7. Your repository will automatically show a green button stating 'compare & pull request' in the *pull request* section
+8. Afterwards use [pull request](https://github.com/mkumail1/PurrfectMatchingHTML-CSS/pulls) to make a request.
 
 ## Acknowledgments
 
