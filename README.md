@@ -183,7 +183,7 @@ git checkout -b <branchname>
 ```
 6. Make changes, then commit.
 7. Push your changes.
-8. Your repository will automatically show a green button stating 'compare & pull request' in the *pull request* section
+8. Your repository will automatically show a green button stating **compare & pull request** in the *pull request* section
 9. Afterwards use [pull request](https://github.com/mkumail1/PurrfectMatchingHTML-CSS/pulls) to make a request.
 
 ## Acknowledgments
