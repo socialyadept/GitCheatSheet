@@ -168,6 +168,12 @@ Note: For existing repositories first check *git pull* for checking the current 
 git push -u origin master
 ```
 
+### 20. Pushing incase the remote repo has unrelated history
+
+```
+git pull origin master --allow-unrelated-histories
+```
+
 ## 21. For making a pull request
 
 1. Go to any github repository [for example](https://github.com/mkumail1/PurrfectMatchingHTML-CSS).
