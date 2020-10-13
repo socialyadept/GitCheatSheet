@@ -168,13 +168,13 @@ Make sure to do this after adding a remote repository to your local computer hav
 git pull origin master --allow-unrelated-histories
 ```
 
-### 20. Pushing everything to the remote repository
+### 21. Pushing everything to the remote repository
 
 ```
 git push -u origin master
 ```
 
-## 21. For making a pull request
+## 22. For making a pull request
 
 1. Go to any github repository [for example](https://github.com/mkumail1/PurrfectMatchingHTML-CSS).
 2. Tap on folk.
