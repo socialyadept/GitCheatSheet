@@ -162,16 +162,16 @@ git remote add origin <url>
 
 Note: For existing repositories first check *git pull* for checking the current status and then commit changes.
 
+### 20. Pulling incase the remote repo has unrelated history
+Make sure to do this after adding a remote repository to your local computer having different history as compare to your remote repository
+```
+git pull origin master --allow-unrelated-histories
+```
+
 ### 20. Pushing everything to the remote repository
 
 ```
 git push -u origin master
-```
-
-### 20. Pushing incase the remote repo has unrelated history
-
-```
-git pull origin master --allow-unrelated-histories
 ```
 
 ## 21. For making a pull request
