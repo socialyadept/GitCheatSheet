@@ -200,7 +200,9 @@ Muhammad Kumail
 
 [Linkedin](https://www.linkedin.com/in/mkumail1/)
 
-[Twitter](https://www.twitter.com/thezwitterguy)
+[Twitter](https://www.twitter.com/iamkumaail)
 
 [Facebook](https://www.facebook.com/iamkumaail/)
+
+[Youtube](https://www.youtube.com/channel/UCdbkGxMPdxVERO0FaYGo4qg)
 
