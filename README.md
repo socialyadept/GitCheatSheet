@@ -1,6 +1,6 @@
 # Everything you need to know for Git
 
-I am writing this for not an absolute solution to most of the issues but to help in remembering git commands. I am uploading this to [Github](https://github.com/mkumail1) so that I can comeback and check the things for myself later on.
+I am writing this for not an absolute solution to most of the issues but to help in remembering git commands. I am uploading this to [Github](https://github.com/mkumail1) so that I can comeback and check the things for myself later on. 
 
 ## Getting Started
 
