@@ -87,7 +87,14 @@ git revert --no-commit <commit code>..HEAD
 ```
 Note: you will still have the history of recent updates even if you go back
 
-### 11. Creating a *.gitignore* file
+### 11. Going back to a *commit state* from *current* branch iteratively
+
+```
+git reset HEAD~2
+```
+This will move your HEAD back to 2 commits and will stage the committed files that were headed back. 
+
+### 12. Creating a *.gitignore* file
 
 ```
 touch .gitignore
@@ -95,38 +102,38 @@ touch .gitignore
 used for ignoring some git files
 just add names of files inside this *.gitignore* file and they will vanish
 
-### 12. For adding a *.gitignore* file in commit
+### 13. For adding a *.gitignore* file in commit
 
 ```
 git add -A
 ```
 This will add every file including *.gitignore* for next commit
 
-### 13. For creating a *new branch*
+### 14. For creating a *new branch*
 
 ```
 git checkout -b <branchname> or git branch <branchname>
 ```
 
-### 14. For *deleting* a branch
+### 15. For *deleting* a branch
 
 ```
-git branch -d <branchname>
+git branch -D <branchname>
 ```
 
-### 15. Check *list* of branches
+### 16. Check *list* of branches
 
 ```
 git branch
 ```
 
-### 16. *Moving* to any branch
+### 17. *Moving* to any branch
 
 ```
 git checkout <branchname>
 ```
 
-### 17. For merging a *branch*
+### 18. For merging a *branch*
 
 ```
 git merge <branch_name_other_than_master>
@@ -134,7 +141,7 @@ git merge <branch_name_other_than_master>
 This will automatically create a commit to git as well
 If you want to merge into *master* branch -> make sure you are currently in *master* branch 
 
-### 18. Adding a remote <*branch*> of a repositiory
+### 19. Adding a remote <*branch*> of a repositiory
 
 ```
 git remote add origin master
@@ -147,7 +154,7 @@ git remote add origin master
 
 **Master:** is a <*branch name*>, can be any other branch as well
 
-### 19. Adding a remote link <*url*> of a repositiory
+### 20. Adding a remote link <*url*> of a repository
 
 ```
 git remote add origin <url>
@@ -162,19 +169,19 @@ git remote add origin <url>
 
 Note: For existing repositories first check *git pull* for checking the current status and then commit changes.
 
-### 20. Pulling incase the remote repo has unrelated history
+### 21. Pulling incase the remote repo has unrelated history
 Make sure to do this after adding a remote repository to your local computer having different history as compare to your remote repository
 ```
 git pull origin master --allow-unrelated-histories
 ```
 
-### 21. Pushing everything to the remote repository
+### 22. Pushing everything to the remote repository
 
 ```
 git push -u origin master
 ```
 
-## 22. For making a pull request
+## 23. For making a pull request
 
 1. Go to any github repository [for example](https://github.com/mkumail1/PurrfectMatchingHTML-CSS).
 2. Tap on folk.
@@ -192,7 +199,7 @@ git checkout -b <branchname>
 8. Your repository will automatically show a green button stating **compare & pull request** in the *pull request* section
 9. Afterwards use [pull request](https://github.com/mkumail1/PurrfectMatchingHTML-CSS/pulls) to make a request.
 
-### 23. Issues with Git (HEAD points to an unborn branch (master))
+### 24. Issues with when HEAD points to an unborn master branch
 
 You don't have to have a master branch, but you do have to have a "default" branch in any git repository. In a non-bare repository, this is the checked-out branch; in a bare repository, it just means it's the default branch checked out for clones.
 
@@ -201,19 +208,19 @@ This default branch is called `HEAD`, and must always exist in a valid git repos
 git symbolic-ref HEAD refs/heads/<new-main-branch>
 ```
 
-### 24. How to remove the very first commit in git?
+### 25. How to remove the very first commit in git?
 
-The most secure way is to use the update-ref command:
+The most secure way is to use the `update-ref` command:
 ```
 git update-ref -d HEAD
 ```
 It will delete the named reference HEAD, so it will reset (softly, you will not lose your work) ALL your commits of your current branch.
 If what you want is to merge the first commit with the second one, you can use the rebase command:
 ```
-git symbolic-ref HEAD refs/heads/new-main-branch
+git rebase -i --root
 ```
 
-### 25. Creating an orphan branch?
+### 26. Creating an orphan branch?
 
 This is a branch with the same content but without any commit history, and commit your new content on it:
 ```
