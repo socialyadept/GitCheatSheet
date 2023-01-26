@@ -199,7 +199,7 @@ git checkout -b <branchname>
 8. Your repository will automatically show a green button stating **compare & pull request** in the *pull request* section
 9. Afterwards use [pull request](https://github.com/mkumail1/PurrfectMatchingHTML-CSS/pulls) to make a request.
 
-### 24. Issues with when HEAD points to an unborn master branch
+### 24. Issues when HEAD points to an unborn master branch
 
 You don't have to have a master branch, but you do have to have a "default" branch in any git repository. In a non-bare repository, this is the checked-out branch; in a bare repository, it just means it's the default branch checked out for clones.
 
