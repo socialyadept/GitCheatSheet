@@ -192,7 +192,7 @@ git checkout -b <branchname>
 8. Your repository will automatically show a green button stating **compare & pull request** in the *pull request* section
 9. Afterwards use [pull request](https://github.com/mkumail1/PurrfectMatchingHTML-CSS/pulls) to make a request.
 
-## 23. Issues with Git (HEAD points to an unborn branch (master))
+### 23. Issues with Git (HEAD points to an unborn branch (master))
 
 You don't have to have a master branch, but you do have to have a "default" branch in any git repository. In a non-bare repository, this is the checked-out branch; in a bare repository, it just means it's the default branch checked out for clones.
 
@@ -201,7 +201,7 @@ This default branch is called `HEAD`, and must always exist in a valid git repos
 git symbolic-ref HEAD refs/heads/<new-main-branch>
 ```
 
-## 24. How to remove the very first commit in git?
+### 24. How to remove the very first commit in git?
 
 The most secure way is to use the update-ref command:
 ```
@@ -213,7 +213,7 @@ If what you want is to merge the first commit with the second one, you can use t
 git symbolic-ref HEAD refs/heads/new-main-branch
 ```
 
-## 25. Creating an orphan branch?
+### 25. Creating an orphan branch?
 
 This is a branch with the same content but without any commit history, and commit your new content on it:
 ```
